@@ -218,7 +218,7 @@ def coordinator_node(
     logger.debug(f"Current state messages: {state['messages']}")
 
     goto = "__end__"
-    locale = state.get("locale", "en-US")  # Default locale if not specified
+    locale = state.get("locale", "en-US")  # Default locale if not specifie][]
     research_topic = state.get("research_topic", "")
 
     if len(response.tool_calls) > 0:
