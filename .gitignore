@@ -8,7 +8,7 @@ wheels/
 .coverage
 agent_history.gif
 static/browser_history/*.gif
-
+notebooks/.ipynb_checkpoints
 # Virtual environments
 .venv
 venv/
